@@ -1,7 +1,7 @@
 # ML
 
-This project aims to utilize Linear Regression to predict house prices.  
+This project aims to utilize Linear Regression to predict house prices.   
 
-Software: Octave.  
-Dataset: https://www.kaggle.com/harlfoxem/housesalesprediction. 
-Purpose: Education. 
+Software: Octave.   
+Dataset: https://www.kaggle.com/harlfoxem/housesalesprediction.   
+Purpose: Education.   
