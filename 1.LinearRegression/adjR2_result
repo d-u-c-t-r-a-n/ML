@@ -1,0 +1,104 @@
+octave:16> main
+
+	 COMPUTING ADJ R2 OF 1 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living                         0.494119
+grade                               0.471766
+sqft_living15                       0.389824
+
+	 COMPUTING ADJ R2 OF 2 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & lat                   0.571330
+grade & yr_built                    0.550705
+sqft_living & view                  0.545631
+
+	 COMPUTING ADJ R2 OF 3 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & view & lat            0.623215
+sqft_living & grade & yr_built      0.617709
+sqft_living & grade & lat           0.606424
+
+	 COMPUTING ADJ R2 OF 4 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & grade & yr_built & lat 0.655796
+sqft_living & view & grade & lat    0.652913
+sqft_living & view & grade & yr_built 0.644823
+
+	 COMPUTING ADJ R2 OF 5 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & view & grade & yr_built & lat 0.686791
+sqft_living & waterfront & grade & yr_built & lat 0.678021
+sqft_living & view & condition & grade & lat 0.664453
+
+	 COMPUTING ADJ R2 OF 6 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & waterfront & view & grade & yr_built & lat 0.692280
+sqft_living & view & grade & yr_built & zipcode & lat 0.690770
+sqft_living & view & condition & grade & yr_built & lat 0.689670
+
+	 COMPUTING ADJ R2 OF 7 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & waterfront & view & grade & yr_built & zipcode & lat 0.696804
+sqft_living & waterfront & view & grade & yr_built & lat & sqft_living15 0.695539
+sqft_living & waterfront & view & condition & grade & yr_built & lat 0.695374
+
+	 COMPUTING ADJ R2 OF 8 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+bathrooms & sqft_living & waterfront & view & grade & yr_built & zipcode & lat 0.699641
+sqft_living & waterfront & view & grade & yr_built & zipcode & lat & long 0.699541
+sqft_living & waterfront & view & condition & grade & yr_built & zipcode & lat 0.699016
+
+	 COMPUTING ADJ R2 OF 9 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+sqft_living & waterfront & view & grade & yr_built & zipcode & lat & long & sqft_living15 0.702452
+bathrooms & sqft_living & waterfront & view & grade & yr_built & zipcode & lat & sqft_living15 0.701977
+bathrooms & sqft_living & waterfront & view & grade & yr_built & zipcode & lat & long 0.701974
+
+	 COMPUTING ADJ R2 OF 10 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+bathrooms & sqft_living & waterfront & view & grade & yr_built & zipcode & lat & long & sqft_living15 0.705290
+sqft_living & waterfront & view & condition & grade & yr_built & zipcode & lat & long & sqft_living15 0.704720
+bathrooms & sqft_living & waterfront & view & condition & grade & yr_built & zipcode & lat & sqft_living15 0.704104
+
+	 COMPUTING ADJ R2 OF 14 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+bedrooms & bathrooms & waterfront & view & condition & grade & sqft_above & sqft_basement & yr_built & yr_renovated & zipcode & lat & long & sqft_living15 0.710054
+bedrooms & bathrooms & sqft_living & waterfront & view & condition & grade & sqft_above & yr_built & yr_renovated & zipcode & lat & long & sqft_living15 0.709763
+bedrooms & bathrooms & sqft_living & waterfront & view & condition & grade & sqft_basement & yr_built & yr_renovated & zipcode & lat & long & sqft_living15 0.709674
+
+...
+
+	 COMPUTING ADJ R2 OF 18 FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+bedrooms & bathrooms & sqft_living & sqft_lot & floors & waterfront & view & condition & grade & sqft_above & sqft_basement & yr_built & yr_renovated & zipcode & lat & long & sqft_living15 & sqft_lot15 0.70946
+
+% Test set
+	 COMPUTING ADJ R2 OF ALL FEATURES
+--------------------------------------------------
+Feature Name			Adjusted R Squared
+------------			------------------
+	All features 0.682178
