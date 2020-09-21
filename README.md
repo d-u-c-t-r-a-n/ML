@@ -7,4 +7,5 @@ Dataset: https://www.kaggle.com/harlfoxem/housesalesprediction.
 Purpose: Education.  
 What I learned:     
 1.  Linear Regression  
-2.  Minimize function: fminunc   
+2.  Cost function & Gradient Descend  
+3.  Minimize function: fminunc   
