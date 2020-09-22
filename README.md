@@ -9,3 +9,5 @@ What I learned:
 1.  Linear Regression  
 2.  Cost function & Gradient Descend  
 3.  Minimize function: fminunc   
+4.  Learning Curve  
+5. 
