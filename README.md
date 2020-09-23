@@ -10,4 +10,4 @@ What I learned:
 2.  Cost function & Gradient Descend  
 3.  Minimize function: fminunc   
 4.  Learning Curve  
-5. 
+5.  Feature Normalization 
