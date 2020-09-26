@@ -7,8 +7,9 @@ Dataset: https://www.kaggle.com/harlfoxem/housesalesprediction.
 Purpose: Education.  
 What I learned:     
 1.  Linear Regression  
-2.  Cost function & Gradient Descend  
-3.  Minimize function: fminunc   
-4.  Learning Curve  
-5.  Feature Normalization  
-6. Normal Equation  
+2.  Cost function  
+3.  Gradient Descend  
+4.  Minimize function: fminunc   
+5.  Learning Curve  
+6.  Feature Normalization  
+7.  Normal Equation  
